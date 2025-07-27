@@ -1,0 +1,42 @@
+spring:
+  application:
+    name: processor-csv
+
+  batch:
+    job:
+      enabled: true
+    jdbc:
+      initialize-schema: always
+    user:
+      file-path: ./data/users.csv
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/csv_db
+    username: postgres
+    password: Pgadmin1992
+    driver-class-name: org.postgresql.Driver
+
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+
+  quartz:
+    job-store-type: jdbc
+    jdbc:
+      initialize-schema: always
+    properties:
+      org.quartz.jobStore.driverDelegateClass: org.quartz.impl.jdbcjobstore.PostgreSQLDelegate
+
+logging:
+  level:
+    root: INFO
+    org:
+      springframework=ERROR:
+    com.processor_csv: DEBUG
+    file:
+      name=logs/processor-csv:
+        log:

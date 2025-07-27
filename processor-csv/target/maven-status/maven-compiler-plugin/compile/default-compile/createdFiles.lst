@@ -1,0 +1,13 @@
+com\processor_csv\infraestructure\batch\config\BatchConfig.class
+com\processor_csv\infraestructure\batch\processor\UserItemProcessor.class
+com\processor_csv\ProcessorCsvApplication.class
+com\processor_csv\infraestructure\quartz\QuartzConfig.class
+com\processor_csv\infraestructure\batch\job\UserJobConfig.class
+com\processor_csv\domain\service\UserService.class
+com\processor_csv\domain\model\User.class
+com\processor_csv\infraestructure\loggin\LogConfig.class
+com\processor_csv\infraestructure\batch\writer\UserItemWriter.class
+com\processor_csv\application\service\UserImportUseCase.class
+com\processor_csv\infraestructure\batch\reader\UserItemReader.class
+com\processor_csv\infraestructure\batch\listener\UserSkipListener.class
+com\processor_csv\infraestructure\quartz\launcher\BatchJobLauncher.class

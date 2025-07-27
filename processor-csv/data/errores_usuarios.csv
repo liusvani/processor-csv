@@ -1,0 +1,4 @@
+firstname,lastname,age,email,occupation,error,timestamp
+"Ana3","Martínez","2","ana.martinez@example.com","Deportista","First name is invalid.","2025-07-27T15:27:00.034764400-05:00[GMT-05:00]"
+"Lucía","Gómez4","22","lucia.gomez@example.net","N/A","Last name name is invalid. | Occupation is empty.","2025-07-27T15:27:00.035762500-05:00[GMT-05:00]"
+"Isabel","López9","78","@example.com","N/A","Last name name is invalid. | Invalid email. | Occupation is empty.","2025-07-27T15:27:00.037763900-05:00[GMT-05:00]"

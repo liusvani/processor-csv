@@ -1,0 +1,12 @@
+------------------Reports------------------
+- Total de usuarios procesados sin errores: 2
+- Total de usuarios no procesados por errores: 3
+- Total de errores en el fichero: 93
+--------------------------------------------------
+--------------- Datos del job: ----------------- 
+- ID : 469
+- Estado: STARTED
+- Inicio: 2025-07-27T15:27:00.014776100
+- Version: 1
+--------------------------------------------------
+Tiempo de ejecución: 13 ms
