@@ -1,5 +1,5 @@
 # Processor-csv
-Microservicio que implementa un job batch encargado de procesar registros de usuarios desde un archivo CSV que valida y persiste en base de datos. Utiliza Spring Batch para la ejecución del job y Quartz para su programación.
+Microservicio está implementado para ejecutar un job batch que procesa registros de usuarios desde un archivo CSV, aplicando validaciones y persistiendo los datos en una base de datos. La solución se construye utilizando Spring Batch para la ejecución del proceso por lotes y Quartz Scheduler para la programación automática del job. Además, adopta una arquitectura hexagonal para garantizar una alta cohesión, bajo acoplamiento y facilidad de mantenimiento
 
   Funcionalidades del microservicio:
 - Leer y procesar registros desde archivos CSV.
